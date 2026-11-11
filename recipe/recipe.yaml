@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: tsgettoolbox_wdfn
-  version: "27.1.0"
+  version: "27.1.1"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 891a616d608f46465a329cfd2a5321c45b3fd02df9cfb31ed08ee7b53bfe6999
+  sha256: 6f6a429dda4c308915ad0dfca94ff7354369d3467a6f7581c4ad3268ef161ccc
 
 build:
   number: 0
